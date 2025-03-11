@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishu Raj / Royadma</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E293B',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">Rishu Raj</h1>
+            <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8">Full-Stack Developer | System Administrator | Game Server Specialist</p>
+            <a href="#projects" class="bg-primary text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300">View My Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-full md:w-1/3">
+                    <img src="https://avatars.githubusercontent.com/rishu074" alt="Profile" class="rounded-lg shadow-lg mx-auto">
+                </div>
+                <div class="w-full md:w-2/3">
+                    <p class="text-lg mb-4">
+                        I am a Full-Stack Developer with a strong focus on system administration and game server infrastructure. 
+                        I previously managed game server deployments at HyzenCloud, developing custom solutions and maintaining server infrastructure to ensure optimal performance and reliability.
+                    </p>
+                    <div class="bg-blue-50 dark:bg-gray-700 p-4 rounded-lg">
+                        <p class="font-semibold">🎮 Specialized in game server infrastructure and management</p>
+                        <p class="font-semibold">💻 Experience with containerization using Docker and Pterodactyl</p>
+                        <p class="font-semibold">🛠️ Proficient in full-stack development with Node.js and TypeScript</p>
+                        <p class="font-semibold">🔧 Skilled in Linux system administration and automation</p>
+                        <p class="font-semibold">🤖 This portfolio was created using AI prompting techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fab fa-js text-4xl text-yellow-400"></i>
+                    <h3 class="text-xl font-semibold mt-4">JavaScript/TypeScript</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Node.js, Express, React</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fab fa-docker text-4xl text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mt-4">Containerization</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Docker, Pterodactyl</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fab fa-linux text-4xl text-gray-700 dark:text-gray-300"></i>
+                    <h3 class="text-xl font-semibold mt-4">Linux</h3>
+                    <p class="text-gray-600 dark:text-gray-400">System Administration, Shell</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-server text-4xl text-green-500"></i>
+                    <h3 class="text-xl font-semibold mt-4">Game Servers</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Deployment, Management</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-code text-4xl text-purple-500"></i>
+                    <h3 class="text-xl font-semibold mt-4">Backend Development</h3>
+                    <p class="text-gray-600 dark:text-gray-400">API Development, EJS</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-shield-alt text-4xl text-red-500"></i>
+                    <h3 class="text-xl font-semibold mt-4">Security</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Server Hardening, Basic DevOps</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-database text-4xl text-blue-600"></i>
+                    <h3 class="text-xl font-semibold mt-4">Databases</h3>
+                    <p class="text-gray-600 dark:text-gray-400">SQL, MongoDB</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-network-wired text-4xl text-indigo-500"></i>
+                    <h3 class="text-xl font-semibold mt-4">CDN</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Content Delivery, FTP</p>
+                </div>
+                <div class="skill-card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-robot text-4xl text-teal-500"></i>
+                    <h3 class="text-xl font-semibold mt-4">AI Prompting</h3>
+                    <p class="text-gray-600 dark:text-gray-400">LLM Interaction, Prompt Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project cards will be dynamically populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="timeline">
+                    <!-- Timeline items will be dynamically populated via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact</h2>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://github.com/rishu074" class="text-3xl hover:text-primary transition-colors">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/royadma0" class="text-3xl hover:text-primary transition-colors">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:royadma0@gmail.com" class="text-3xl hover:text-primary transition-colors">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://instagram.com/_rishu_074" class="text-3xl hover:text-primary transition-colors">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Name" class="w-full px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Email" class="w-full px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Message" rows="4" class="w-full px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700"></textarea>
+                </div>
+                <button type="submit" class="bg-primary text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-6 bg-gray-100 dark:bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Rishu Raj. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
