@@ -143,9 +143,7 @@ function populateExperience() {
 
 // Handle contact form submission
 document.querySelector('#contact form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    // Add your form submission logic here
-    alert('Form submission functionality to be implemented!');
+    // Let the form submit naturally to trigger mailto
 });
 
 // Initialize
